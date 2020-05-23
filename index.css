@@ -12,7 +12,7 @@ h1{
   padding-top: 8rem;
 }
 h2{
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 h3{
   font-size: 1.5rem;
@@ -131,9 +131,9 @@ hr{
   margin: 5rem auto 2rem auto;;
  padding-bottom: 5px;
 }
-.contact p{
-  margin-bottom: 3rem;
-}
+
+ 
+
 .button:hover{
   transform: scale(1.2);
 }
