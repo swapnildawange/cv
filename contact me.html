@@ -1,0 +1,126 @@
+<html><head> 
+  <title>
+      Contact Me
+    </title> 
+  <link rel="stylesheet" href="contact.css"> 
+  <script>
+   function message(){
+  alert("Your message is sent. Thank You !");
+  
+}
+</script> 
+ <style type="text/css" id="dcoder_stylesheet">body{
+  padding: 0;
+  margin: 0;
+  background-color: #ecfbfc;
+  text-align: center;
+  
+}
+
+h1{
+  text-align: center;
+  font-size: 5rem;
+  margin-bottom: 10rem;
+  color: #11999E;
+}
+.wrapper{
+  width: 50%;
+  margin: 10rem auto 10px auto;
+   
+  
+  
+}
+
+label{
+  
+  display: inline-block;
+  
+  color:#EAF6F6;
+  background-color: #11999E;
+  font-size: 1.5rem;
+  
+  border-radius : 10px;
+  padding: 10px;
+  text-align : right;
+  margin: 10px;
+  
+}
+td{
+  text-align: center;
+}
+input,textarea{
+  font-size: 1.5rem;
+  border-radius: 10px;
+  padding: 10px;
+}
+#msg{
+  vertical-align: top;
+  
+}
+textarea{
+  
+  width: 100%;
+}
+#showmsg{
+  margin-top: 3rem;
+  margin-bottom: 3 rem;
+  border-radius: 13px;
+  
+  font-size: 2rem;
+  color: #EAF6F6;
+  background-color: #11999E;
+  border: none;
+  text-decoration: none;
+  padding: 10px;
+}
+.right{
+   width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 30px;
+  right: 100px;
+}
+.left{
+   width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 400px;
+  left: 30px;
+}
+img{
+  background-color:  #ecfbfc;
+  
+ 
+}
+.grass{
+  width: 100%;
+}
+table{
+  margin-bottom: 7rem;
+}</style></head> 
+ <body> 
+  <img class="left" src="left.png" alt="bird"> 
+  <img class="right" src="right.png" alt="bird"> 
+  <div class="wrapper"> 
+   <h1>Get In Touch</h1> 
+   <table> 
+    <tbody> 
+     <tr> 
+      <td><label for="name">Name</label></td> 
+      <td><input type="text" id="name" placeholder="Your Name"> </td> 
+     </tr> 
+     <tr> 
+      <td><label for="email">Email</label> </td> 
+      <td><input type="emial" id="email" placeholder="Your Email"> </td> 
+     </tr> 
+     <tr> 
+      <td><label for="message">Message</label></td> 
+      <td><textarea type="textarea" id="msg" placeholder="Write Something"> </textarea> </td> 
+     </tr> 
+    </tbody> 
+   </table> 
+   <input type="button" id="showmsg" onclick="message()" value="submit"> 
+  </div> 
+  <img class="grass" src="grass.png" alt="grass"> 
+ 
+</body></html>
